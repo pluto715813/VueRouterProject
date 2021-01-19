@@ -11,12 +11,12 @@ export default {
     methods:{
         Jump(){
 
-            // this.$router.replace('/about');//指定跳转地点
+            // this.$router.replace('/login');//指定跳转地点
             // this.$router.go(-1);//返回上一级
             // this.$router.replace({name:'aboutLink'});//指定路由名称的name属性名称
 
             // this.$router.push('about');
-            this.$router.push('about');
+            this.$router.push('/login');
 
         }
     }
